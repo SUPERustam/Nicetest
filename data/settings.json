@@ -1,7 +1,3 @@
-[
-  {
-    "code": "/home/superustam/CLionProjects/Strike/helloworld.cpp",
-    "tests": "",
-    "results": ""
-  }
-]
+{
+  "files": ["/home/superustam/CLionProjects/Strike/helloworld.cpp"]
+}
