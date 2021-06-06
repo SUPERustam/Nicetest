@@ -1,0 +1,41 @@
+[
+  {
+    "input": "89 20 41 1 11",
+    "answer": "2 3",
+    "comment": "common test",
+    "output": [
+      "2 3",
+      "2 3"
+    ],
+    "result": [
+      "OK",
+      "OK"
+    ]
+  },
+  {
+    "input": "11 1 1 1 1",
+    "answer": "0 1",
+    "comment": "test of 0",
+    "output": [
+      "-1 -1",
+      "-1 -1"
+    ],
+    "result": [
+      "WA",
+      "WA"
+    ]
+  },
+  {
+    "input": "3 2 2 2 1",
+    "answer": "-1 -1",
+    "comment": "test of -1",
+    "output": [
+      "-1 -1",
+      "-1 -1"
+    ],
+    "result": [
+      "OK",
+      "OK"
+    ]
+  }
+]
