@@ -3,7 +3,7 @@
     {
       "input": "89 20 41 1 11",
       "answer": "2 3",
-      "comment": "common test"
+      "comment": "common case"
     },
     {
       "input": "11 1 1 1 1",
