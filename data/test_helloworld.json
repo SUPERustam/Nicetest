@@ -1,0 +1,57 @@
+{
+  "tests": [
+    {
+      "input": "89 20 41 1 11",
+      "answer": "2 3",
+      "comment": "common case"
+    },
+    {
+      "input": "89 20 41 1 11",
+      "answer": "2 3",
+      "comment": "common case"
+    },
+    {
+      "input": "89 20 41 1 11",
+      "answer": "2 3",
+      "comment": "common case"
+    }
+  ],
+  "results": [
+    {
+      "output": [
+        "2 3",
+        "OK",
+        "2 3"
+      ],
+      "result": [
+        "2 3",
+        "OK",
+        "OK"
+      ]
+    },
+    {
+      "output": [
+        "",
+        "",
+        "2 3"
+      ],
+      "result": [
+        "",
+        "",
+        "OK"
+      ]
+    },
+    {
+      "output": [
+        "",
+        "",
+        "2 3"
+      ],
+      "result": [
+        "",
+        "",
+        "OK"
+      ]
+    }
+  ]
+}

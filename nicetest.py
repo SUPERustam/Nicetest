@@ -7,7 +7,7 @@ import argparse
 from modules import test_func, add_func, clear_func
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-t', '--test', help="test your files: cppfile0.cpp cppfile1.cpp...", nargs='+',
+parser.add_argument('-t', '--test', help="test your files: cppfile0.cpp cppfile1.cpp...", nargs='*',
                     metavar='')
 parser.add_argument('-c', '--connect', help='connect tests to your scripts: cppfile0.cpp cppfile1.cpp...', nargs='+',
                     metavar='')
@@ -53,7 +53,7 @@ if connect_var:
         # settings[item]: dct == file: dict from test.json
         if add_var:
             dct = add_func(add_var, dct, count * [''])
-        if test_var:
+        if test_var == []:
             dct = test_func([], item, dct)
 
         dct = json.dumps(dct, ensure_ascii=False)
